@@ -1,0 +1,12 @@
+TOMCAT=apache-tomcat-7.0.72
+MAVEN=apache-maven-3.3.9
+NEXUS=nexus-2.14.0-01
+JDK=jdk1.7.0_75
+GIT=git-2.8.3
+USER_HOME=/home/fuwei
+LOCAL_HOME=${USER_HOME}/local
+USER_ENV=${USER_HOME}/.bashrc
+LN_HOME=${USER_HOME}/bin
+SITE_HOME=~/site
+SITE_DEV=${SITE_HOME}/polar_dev
+SITE_PROD=${SITE_HOME}/polar_prod
