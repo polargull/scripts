@@ -25,6 +25,7 @@ if iCanHazVundle == 0
     :PluginInstall
 endif
 call vundle#end()
+set cursorline
 set nu sts=4 ts=4 sw=4 et si ai
 set ruler
 set hlsearch
@@ -37,13 +38,13 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:solarized_termcolors=256
-let g:netrw_altv          = 1
-let g:netrw_fastbrowse    = 2
-let g:netrw_keepdir       = 0
-let g:netrw_liststyle     = 2
-let g:netrw_retmap        = 1
-let g:netrw_silent        = 1
-let g:netrw_special_syntax= 1
+" let g:netrw_altv          = 1
+" let g:netrw_fastbrowse    = 2
+" let g:netrw_keepdir       = 0
+" let g:netrw_liststyle     = 2
+" let g:netrw_retmap        = 1
+" let g:netrw_silent        = 1
+" let g:netrw_special_syntax= 1
 syntax enable
 set background=dark
 colorscheme solarized
