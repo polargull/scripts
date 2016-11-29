@@ -19,12 +19,15 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-scripts/bash-support.vim'
 Plugin 'ervandew/supertab'
 Plugin 'eiginn/netrw'
+Plugin 'tpope/vim-pathogen'
 if iCanHazVundle == 0
     echo "Installing Vundles, please ignore key map error messages"
     echo ""
     :PluginInstall
 endif
 call vundle#end()
+" call pathogen#infect()
+" call pathogen#helptags()
 set cursorline
 set nu sts=4 ts=4 sw=4 et si ai
 set ruler
